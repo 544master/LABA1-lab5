@@ -46,9 +46,6 @@ namespace laba1.Services
             SaveDeliveries();
         }
 
-        // Добавлено в лаб. №5: публичная обёртка над SaveDeliveries(),
-        // нужна форме, чтобы сохранить изменения, внесённые напрямую
-        // в объект Delivery при редактировании (EditDeliveryButton_Click).
         public void Save()
         {
             SaveDeliveries();

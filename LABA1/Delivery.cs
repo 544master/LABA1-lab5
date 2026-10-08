@@ -16,7 +16,6 @@ namespace laba1.Models
         public DateTime DeliveryDate { get; set; }
         public DeliveryStatus Status { get; set; }
 
-        // Конструктор по умолчанию (статус "Новый")
         public Delivery(string customerName, string address, DateTime deliveryDate)
         {
             CustomerName = customerName;
@@ -25,7 +24,6 @@ namespace laba1.Models
             Status = DeliveryStatus.Новый;
         }
 
-        // Конструктор с указанием статуса (для загрузки из файла)
         public Delivery(string customerName, string address, DateTime deliveryDate, DeliveryStatus status)
         {
             CustomerName = customerName;

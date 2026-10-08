@@ -30,7 +30,6 @@ namespace laba1.Tests
         [TestMethod]
         public void Constructor_WithStatus_SetsGivenStatus()
         {
-            // Второй конструктор используется DeliveryManager при загрузке из файла
             var delivery = new Delivery("Смирнов С.С.", "г. Казань, ул. Баумана, 1",
                 DateTime.Now.AddDays(1), DeliveryStatus.В_пути);
 

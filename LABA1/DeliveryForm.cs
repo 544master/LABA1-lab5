@@ -83,7 +83,6 @@ namespace laba1.Forms
             };
             updateStatusButton.Click += UpdateStatusButton_Click;
 
-            // Новая функция (лаб. №5): кнопка "Редактировать"
             editDeliveryButton = new Button
             {
                 Location = new Point(350, 70),
@@ -98,7 +97,6 @@ namespace laba1.Forms
                 Width = 560,
                 Height = 250
             };
-            // Предзаполнение полей при выборе доставки (лаб. №5)
             deliveriesListBox.SelectedIndexChanged += DeliveriesListBox_SelectedIndexChanged;
 
             this.Controls.Add(customerNameTextBox);
@@ -206,7 +204,6 @@ namespace laba1.Forms
             }
         }
 
-        // Новая функция (лаб. №5): редактирование данных доставки
         private void DeliveriesListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             int index = deliveriesListBox.SelectedIndex;

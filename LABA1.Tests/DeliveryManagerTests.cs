@@ -92,7 +92,7 @@ namespace laba1.Tests
         [TestMethod]
         public void Save_PersistsDirectlyEditedDelivery()
         {
-            // Проверка метода Save(), добавленного в лаб. №5 для функции редактирования
+           
             var delivery = new Delivery("Волкова Е.С.", "г. Тверь, ул. Советская, 4",
                 DateTime.Now.AddDays(3));
             _manager.AddDelivery(delivery);

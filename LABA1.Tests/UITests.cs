@@ -44,7 +44,6 @@ namespace laba1.Tests
         [TestMethod]
         public void EditDeliveryButton_IsPresent()
         {
-            // Кнопка, добавленная в лаб. №5
             var button = FindControl<Button>("Редактировать");
             Assert.IsNotNull(button);
         }

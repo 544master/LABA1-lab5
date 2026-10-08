@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Forms;
-using laba1.Forms; // Подключаем нашу форму из новой папки
+using laba1.Forms; 
 
 namespace laba1
 {
@@ -12,7 +12,6 @@ namespace laba1
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            // Запускаем форму из пространства имен laba1.Forms
             Application.Run(new DeliveryForm());
         }
     }
